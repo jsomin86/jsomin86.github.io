@@ -7,14 +7,27 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  /*background-color: #a9a9a9;
+  background: url("background.jpg") repeat-x fixed;*/
+  background: rg(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 body {
   width: 70%;
   margin: 0 auto;
+  text-align: center;
 }
 
+/*html {
+  background-color: blue;
+}
+
+@media (min-width: 30em) {
+  html {
+    background-color: pink;
+  }
+}*/
 /* 文字排版 */
 
 h1, h2, h3 {
@@ -50,7 +63,12 @@ p, li {
 
 figcaption{
   font-size: 2rem;
-  color: deeppink;
+  /*color: deeppink;*/
+  border: 1px solid white;
+  background-color: deeppink;
+  width: 500px;
+  width: calc(23%);
+
 }
 
 /* 标题布局 */
@@ -87,6 +105,7 @@ nav a {
   text-decoration: none;
   color: black;
   transition-duration: 200ms;
+  font-family: 'Sonsie One', 'ZCOOL KuaiLe', cursive;
 }
 
 nav form {
@@ -136,10 +155,32 @@ aside {
   background-color: #66ccff;
 }
 
-aside li {
+aside li a{
   padding-bottom: 10px;
+  background-color: rgb(224, 102, 126);
+  color: #fff;
+  text-decoration: none;
+  padding: 4px;
+  display: inline-block
+}
+aside li a:hover {
+  background-color: rgb(212, 4, 70);
+  color: #fff;
 }
 
 footer {
   margin-top: 10px;
+  border: 3px solid #2a2a2a;
 }
+
+footer p{
+  display: inline;
+
+  border: 10px solid #e26de2;
+  border-radius: 5px;
+}
+
+/*footer div{
+  border:1em dashed  #05790e;
+  border-radius: 1em;
+}*/
