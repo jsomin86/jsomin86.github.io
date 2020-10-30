@@ -14,9 +14,11 @@ html {
 }
 
 body {
+  height: auto;
   width: 70%;
   margin: 0 auto;
   text-align: center;
+
 }
 
 /*html {
@@ -67,14 +69,23 @@ article p{
   font-family: 'Dancing Script','ZCOOL XiaoWei', serif;
 
 }
-
 article p span{
   font-family: 'Hi Melody', cursive;
 }
 
 figure{
   margin-top: 3rem;
+
 }
+
+
+
+.main_img{
+  height: 40%;
+  width: 40%;
+}
+
+
 figcaption{
   font-size: 2rem;
   /*color: deeppink;*/
@@ -161,8 +172,12 @@ main {
 }
 
 article {
+  /*display: flex;
+    flex-direction: column;
+  justify-content: center;*/
   flex: 4;
-  height: 90vh;
+  height: auto;
+
 }
 
 aside {
