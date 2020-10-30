@@ -67,11 +67,12 @@ article p{
   font-family: 'Dancing Script','ZCOOL XiaoWei', serif;
 
 }
-
+article p span{
+  font-family: 'Hi Melody', cursive;
+}
 figure{
   margin-top: 3rem;
 }
-
 figcaption{
   font-size: 2rem;
   /*color: deeppink;*/
