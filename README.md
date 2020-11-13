@@ -19,4 +19,4 @@
 以及fork后，如何同步问题：
 https://github.com/selfteaching/the-craft-of-selfteaching/issues/67
 教程是很多的，多找找看
->>>>>>> 87485c23e5b1040a40d3397f83db0e4c7c3c76b2
+>>>>>>> 
