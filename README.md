@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# WEB_for_jsomin86
-
-vscode
-上下移动一行： Alt+Up 或 Alt+Down
-=======
 ## WEB_site_for_jsomin86
 这仅是一个静态网站，不需要后端语言。
 所以只要懂html, css, javascript就可以了
